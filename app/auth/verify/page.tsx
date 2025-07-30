@@ -5,7 +5,6 @@ import { useSearchParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
-import FloatingBlobs from '@/components/landing/FloatingBlobs';
 
 function VerifyEmailContent() {
   const searchParams = useSearchParams();
@@ -36,7 +35,6 @@ function VerifyEmailContent() {
 
   return (
     <div className="w-full max-w-md px-4">
-      <FloatingBlobs />
       <div className="text-center">
         <h1 className="text-3xl font-bold mb-6">
           Verify Your Email
